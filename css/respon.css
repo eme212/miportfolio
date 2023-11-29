@@ -1,0 +1,103 @@
+
+@media(max-width: 769px) {
+    .container{
+        max-width: 768px;
+        background-color: var(--white-background);
+        margin: 0 auto;
+
+    }
+    .title__bio{
+        font-size: 3rem;
+    }
+    .title__subsection{
+        font-size: 2.2rem
+    }
+    .menu__list--item{
+        display: none;
+    }
+    .menu__list--itemRes{
+        display: block;
+        font-size: 1.5rem;
+    }
+    .title__profile{
+        width: 18rem;
+        height: 18rem;
+        margin: 10px;
+        gap:10px;
+    }
+    /* estilo sobre mi */
+    .title__network__item{
+        font-size: 1.2rem;
+    }
+    .about__title{
+        font-size: 2.7rem;
+    }
+    .about__paragraph{ 
+        font-size: 1.8rem;
+    }
+    /* estilos skills */
+    .skills__title{
+        font-size: 2.7rem;
+    }
+    .skills__line{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-evenly;
+    }
+    .skills__box{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 6rem;
+        gap: 10px;
+        text-align: center;
+        padding: 3rem;
+    }
+    /* estilo hobbies */
+    .hobbies__title{
+        font-size: 2.7rem;
+    }
+    .hobbies__line {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .hobbies__img img{
+        height: 50px;
+    }
+
+    /*estilos de la formación academica  */
+
+    .academic{
+        background-color: #EAF2FD;
+    }
+    .academic__title{
+        font-size: 2.7rem;
+        margin-top: 3rem;
+    }
+    .academic__courses__item__title{
+        font-size: 1.5rem;
+    }
+    .academic__courses__item__subtitle{
+        font-size: 1.3rem;
+    }
+    .formcontato__img{
+        display: none;
+    }
+    A/* estilos de contacto */
+    .formcontato__contacto{
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    }
+    .formcontato__input{
+    padding: 0px 12px;
+    align-items: center;
+    }
+
+}
